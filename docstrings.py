@@ -4,6 +4,6 @@ def functions(n):
     
     '''
 # functions(5)
-n = 5
+n = int(input("Enter a number: "))
 functions(n)
-print(functions.__doc__,n)
+print(n**2)
