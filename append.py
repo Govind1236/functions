@@ -1,4 +1,4 @@
-user_input = input("Enter a Number: ")
+user_input = input("Enter a Number with spereated space: ")
 # split string into individual numbers
 number_list = user_input.split()
 
