@@ -5,3 +5,5 @@ dic = {
       
 }
 print(dic[321])
+
+print(dic.get("Govind"))
