@@ -15,6 +15,8 @@ def divison():
         print("Error: Division By Zero is not allowed")
     except Exception as b:
         print("Unexpected Error occur", b)
+    finally:
+       print("Im executed")
 
     user_choice = input("Do you want to continue? (yes/no): ").strip().lower()
     if user_choice == "no":
