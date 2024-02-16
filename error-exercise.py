@@ -12,13 +12,3 @@ if(while_coding):
     else:
       nam.append(name[::-1])
     print("".join(nam))
-else:
-   nam = []
-   for name in names:
-    if(len(user_input) >= 3):
-      name = nam[-1] + nam[:-1]
-      user_input = name[3:] 
-      nam.append(user_input)
-    else:
-    #   nam.append(name[::-1])
-     print("".join(nam))
