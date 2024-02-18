@@ -5,7 +5,11 @@
 #         print("Wow its", letter) 
 #     index += 1
 name = ["Govind", 902 , "Awesome"]
-for index, letter in enumerate(name):
-    if (index == 1):
-     print("Wow its", letter) 
-  
+try:
+    index = int(input("Enter a Number: "))
+    if index > 0 or index < len(name):
+        print(f"The value in {index} index is", name[index])
+    else:
+        print("Index out of range")
+except:
+    print("Error occurs")
