@@ -11,5 +11,5 @@ try:
         print(f"The value in {index} index is", name[index])
     else:
         print("Index out of range")
-except:
-    print("Error occurs")
+except ValueError:
+    print("ValueError occurs")
