@@ -3,5 +3,4 @@
 # result = sqrt(value_) * pi
 # print(dir(result))
 import connect
-name = " "
-connect.welcome(name)
+connect.welcome()
