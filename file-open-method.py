@@ -13,10 +13,10 @@
 #     print(f"The marks of student {i} in subjects {m3}")
 
 #     print(line)
-with open('myfile.txt','r') as f:
-    f.seek(2)
-    file = f.read(2)
-    print(file)
-    
-
-        
+with open('myfile.txt','w') as f:
+    file = f.write("okay")
+    f.truncate(2)
+    with open('myfile.txt', 'r') as f:
+        print(f.read())
+    # print(f.tell())
+    # print(file)
