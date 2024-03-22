@@ -1,6 +1,6 @@
 class Me:
-    name = ""
-    occupation = ""
+    name = "Govind"
+    occupation = "AI Developer"
     def info(self):
         print(f"{self.name} is an {self.occupation}")
 obj = Me()
